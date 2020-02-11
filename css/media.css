@@ -1,0 +1,455 @@
+@media(max-width: 1170px){
+    .container{
+        width: 90%;
+    }
+    .general__title{
+        width: 540px;
+    }
+    .advantages__text{
+        width: 90%;
+    }
+   
+    .instruction__items{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .instruction__item-text {
+        font-size: 14px;
+        line-height: 18px;
+        padding-left: 67px;
+        padding-top: 35px;
+    }
+    .description__img img{
+        width: 100%;
+    }
+    .maps__submenu-listХ{
+        top: 22px;
+    }
+
+    
+}
+@media(max-width: 1110px){
+    .header__menu{
+        display: none;
+        position: absolute;
+        top: 120px;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        padding: 0px;
+        background-color: #FEDE4A;
+        z-index: 1;
+    }
+    .header__menu ul{
+        display: block;
+
+    }
+    .header__menu li+li {
+        padding-left: 0px;
+    }
+    .header__menu a{
+        display: block;
+        padding: 15px 0px;
+        margin-left: 0;
+        font-size: 21px;
+    }
+    .menu__btn{
+        width: 20px;
+        height: 20px;
+        position: relative;
+        
+    }
+    .menu__btn{
+        width: 60px;
+        height: 23px;
+        position: relative;
+    }
+    .menu__btn span{
+        width: 100%;
+        height: 5px;
+        background-color: #000;
+        border-radius: 3px;
+        top: 9px;
+        position: absolute;
+    }
+    .menu__btn::after,
+    .menu__btn::before{
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 5px;
+        background-color: #000;
+        border-radius: 3px;
+
+    }
+    .menu__btn::after{
+        top: -2px;
+    }
+    .menu__btn::before{
+        bottom: -2px;
+    }
+    .instruction{
+        padding-top: 0;
+        padding-bottom: 30px;
+    }
+    .price__inner{
+        flex-wrap: wrap;
+    }
+    .price__item{
+        width: 48%;
+        margin-bottom: 30px;
+    }
+    .maps__link li {
+        font-size: 15px;
+        line-height: 15px;
+        margin-bottom: 35px;
+    }
+    .footer__wrapper{
+        display: block;
+        width: 100%;
+    }
+    .footer__order{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .general__title{
+        text-align: center;
+        width: 100%;
+    }
+    .footer__popular{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer__town li:first-child {
+        margin-right: 111px;
+    }
+    .footer__site-inner{
+        justify-content: center;
+        margin-bottom: 75px;
+       
+    }
+    .footer__popular-inner{
+        margin-bottom: 75px;
+    }
+}
+
+
+@media(max-width: 955px){
+    .header__menu a {
+        margin-right: 70px;
+    }
+    .price__inner{
+        margin-bottom: 70px;
+    }
+    .maps__menu {
+        flex-direction: column;
+        align-items: center;
+    }
+   
+    .instruction{
+        padding: 0;
+        min-height: 122px;
+    }
+    .instruction__item-img {
+        top: 10%;
+        left: 75px;
+    }
+    .instruction__item-text {
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 19px;
+        padding-left: 0px;
+        margin-top: 15px;
+        text-align: center;
+    }
+    .description__text{
+        width: 100%;
+        margin-bottom: 35px;
+    }
+    .description__wrapper{
+        margin-bottom: 70px;
+        display: block;
+    }
+    .arrow{
+        right: 20px;
+    }
+    .slick-dots{
+        bottom: -70px;
+    }
+    .evacuation__inner {
+        display: block;
+        width: 100%;
+    }
+    .advertising-phone {
+        margin-bottom: 60px;
+        margin-top: 25px;
+    }
+    .advantages__inner{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .col-2 {
+        margin-bottom: 40px;
+    }
+    .advantages__text {
+        width: 100%;
+    }
+    
+}
+@media(max-width: 810px){
+    .advertising-title {
+        font-size: 50px;
+        margin-top: 55px;
+    }
+    .advertising-phone {
+        margin-top: 185px;
+    }
+    .maps__link li {
+        font-size: 13px;
+        line-height: 12px;
+        margin-bottom: 31px;
+    }
+    .phone__bottom{
+        margin-top: 40px;
+    }
+}
+@media(max-width: 710px){
+    .header {
+        border-bottom: 6px solid #000;
+    }
+    .instruction{
+        display: none;
+    }
+    .advantages__text {
+        width: 80%;
+    }
+    .price {
+        padding-top: 60px;
+    }
+    .price__inner{
+        margin-bottom: 50px;
+    }
+    .advantages__inner {
+        margin-bottom: 60px;
+    }
+    .general__title {
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+    .regional__line {
+        font-size: 15px;
+        line-height: 10px;
+    }
+}
+@media(max-width: 670px){
+    .maps__inner{
+        display: block;
+        text-align: center;
+    }
+    .maps__link li {
+        font-size: 25px;
+        line-height: 15px;
+        margin-bottom: 35px;
+    }
+}
+@media(max-width: 600px){
+    .advertising-title {
+        font-size: 35px;
+        margin-top: 35px;
+    }
+    .advertising__text{
+        font-size: 12px;
+    }
+   
+    .advantages__text{
+        font-size: 18px;
+    }
+    .description__text {
+        font-size: 18px;
+        line-height: 25px;
+    }
+    .slick-dots{
+        left: 32%;
+    }
+    .footer__item {
+        justify-content: center;
+        display: flex;
+        margin-bottom: 25px;
+    }
+    .maps__wrapper{
+        display: block;
+    }
+    .maps__wrapper-link li {
+        font-size: 22px;
+        line-height: 25px;
+        text-align: center;
+        margin-bottom: 0px;
+    }
+}
+@media(max-width: 495px){
+    .regional__line {
+        font-size: 12px;
+        line-height: 0px;
+    }
+}
+@media(max-width: 430px){
+    .advertising-title{
+        font-size: 28px;
+    }
+    .advertising__text{
+        font-size: 9px;
+    }
+    .advertising-phone {
+        width: 200px;
+        height: 55px;
+        margin-top: 137px;
+        padding: 14px 10px 14px 80px;
+    }
+    .advertising-phone a{
+        font-size: 14px;
+    }
+    .advertising-tel a::before{
+        top: 16px;
+        left: 33px;
+    }
+    .phone__bottom{
+        margin-top: 20px;
+    }
+    .advertising__wait-inner span{
+        margin-left: 0;
+        font-size: 14px;
+    }
+    .maps__link li {
+        font-size: 18px;
+        margin-bottom: 30px;
+    }
+    .reviews__item-inner{
+        margin-left: 0;
+    }
+    .reviews__item{
+        padding: 20px;
+    }
+    .reviews__img{
+        display: none;
+    }
+    .reviews__text {
+        font-size: 10px;
+        line-height: 17px;
+    }
+    .footer__item-text {
+        width: 245px;
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 20px;
+        margin-left: 15px;
+    }
+}
+@media(max-width: 370px){
+    .header__menu a{
+        font-size: 14px;
+        padding: 8px;
+        margin-right: 0;
+    }
+    .menu__btn{
+        width: 35px;
+    }
+    .advertising__wrapper {
+        min-height: 450px;
+    }
+    .advertising__inner{
+        margin-right: 0;
+    }
+    .advertising-phone{
+        margin-top: 85px;
+    }
+    .advertising__wait{
+        right: -3px;
+    }
+    .price{
+        padding-top: 25px;
+    }
+    .general__title {
+        font-size: 25px;
+        margin-bottom: 20px;
+        line-height: 30px;
+    }
+    .price__inner {
+        margin-bottom: 10px;
+    }
+    .advantages__img{
+        left: 20px;
+    }
+    .advantages__text {
+        font-size: 15px;
+    }
+    .advantages__inner {
+        margin-bottom: 0px;
+    }
+    .description__text {
+        font-size: 15px;
+    }
+    .description__wrapper {
+        margin-bottom: 30px;
+    }
+    .regional__inner{
+        display: block;
+        text-align: center;
+    }
+    .regional__line li {
+        margin-bottom: 20px;
+    }
+    .regional__line {
+        font-size: 15px;
+        line-height: 3px;
+    }
+    .regional__inner{
+        margin-bottom: 115px;
+    }
+    .maps__menu-list>li {
+        font-size: 17px;
+        line-height: 9px;
+        margin-bottom: 32px;
+    }
+    .arrow {
+        right: 7px;
+    }
+    .arrow{
+        right: 7px;
+        top: 2px;
+    }
+    .reviews__title {
+        margin-top: 12px;
+    }
+    .footer__item-img{
+        margin-left: 50px;
+    }
+    .footer__item-text{
+        font-size: 14px;
+        line-height: 17px;
+        width: 280px;
+        margin-left: 20px;
+    }
+    .phone__bottom{
+        margin-top: 40px;
+    }
+    .footer__popular-inner {
+        margin-bottom: 47px;
+        margin-left: 50px;
+    }
+    .footer__site-text {
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 27px;
+    }
+    .footer__town li {
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 16px;
+        margin-bottom: 40px;
+    }
+}
